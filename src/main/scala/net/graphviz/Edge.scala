@@ -4,7 +4,7 @@ class Edge {
 
     private var _leftName = ""
     private var _rightName = ""
-    private var _color = "#FFFFFF"
+    private var _color = "#000000"
     private var _tooltip = ""
 
     def leftName = _leftName
