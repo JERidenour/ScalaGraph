@@ -1,0 +1,15 @@
+# compiled folders
+project/
+target/
+
+# data folders
+src/main/resources
+
+# vim buffer
+*.swp
+
+# data files
+*.csv
+
+# this thing
+*.DS_Store
