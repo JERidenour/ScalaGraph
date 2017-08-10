@@ -12,7 +12,7 @@ class Node {
     def label_= (in:String):Unit = _label = in
 
     override def toString: String = {
-        s"""$name [label = "$label"];"""
+        s"""$name [label = "$label"];""" + "\n"
     }
 
     def canEqual(a: Any) = a.isInstanceOf[Node]

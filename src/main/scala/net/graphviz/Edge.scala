@@ -19,9 +19,9 @@ class Edge {
 
     override def toString: String = {
         if(this.tooltip==""){ 
-            s"""$leftName -- $rightName [color="$color"];"""
+            s"""$leftName -- $rightName [color="$color"];""" + "\n"
         }else{
-            s"""$leftName -- $rightName [color="$color" label="$tooltip"];"""
+            s"""$leftName -- $rightName [color="$color" label="$tooltip"];""" + "\n"
         }
     }
 
