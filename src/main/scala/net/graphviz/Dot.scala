@@ -6,9 +6,8 @@ class Dot {
 
     private var _graphParam = "[overlap=false " + 
         "outputorder=edgesfirst];"
-    private var _edgeParam = "[weight=2, penwidth=5];"
-    private var _nodeParam = "[fontsize=32 width=5 " + 
-        "shape=ellipse style=filled fillcolor=white];"
+    private var _edgeParam = "[ ];"
+    private var _nodeParam = "[shape=ellipse style=filled fillcolor=white];"
 
     var nodeBuffer = new ArrayBuffer[Node]
     var edgeBuffer = new ArrayBuffer[Edge]
