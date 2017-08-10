@@ -77,4 +77,13 @@ object Edge {
         v.color = c
         v
     }
+    def apply(ln: String, rn: String) = {
+
+        var v = new Edge 
+        v.leftName = createName(ln)
+        v.rightName = createName(rn)
+        v
+    }
+
+
 }
