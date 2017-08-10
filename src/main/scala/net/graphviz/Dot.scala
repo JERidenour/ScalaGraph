@@ -5,7 +5,7 @@ import scala.collection.mutable.ArrayBuffer
 class Dot {
 
     private var _graphParam = "[overlap=false " + 
-        "outputorder=edgesfirst" +
+        "outputorder=edgesfirst " +
         "size=24];"
     private var _edgeParam = "[ ];"
     private var _nodeParam = "[shape=ellipse style=filled fillcolor=white];"
