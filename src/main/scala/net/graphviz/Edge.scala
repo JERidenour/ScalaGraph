@@ -58,12 +58,6 @@ object Edge {
             .replace("""[""", "")
             .replace("""]""", "")
             .replace("$", "S")
-            .replace("2", "two")
-            .replace("50", "fifty")
-            .replace("7", "seven")
-            .replace("69", "sixtynine")
-            .replace("1", "one")
-
     }
 
     def apply(ln: String, rn: String, c: String, tp: String) = {
