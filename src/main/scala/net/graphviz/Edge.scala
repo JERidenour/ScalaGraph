@@ -48,7 +48,8 @@ object Edge {
     def createName(input: String) = {
        input 
             .replace(" ", "")
-            .replace(".", "")
+            .replace(".", "period")
+            .replace(",", "comma")
             .replace("""(""", "")
             .replace(""")""", "")
             .replace("&", "and")
