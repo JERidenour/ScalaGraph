@@ -50,6 +50,8 @@ object Edge {
             .replace(" ", "")
             .replace(".", "period")
             .replace(",", "comma")
+            .replace(";", "semicolon")
+            .replace(":", "colon")
             .replace("""(""", "")
             .replace(""")""", "")
             .replace("&", "and")
