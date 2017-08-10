@@ -1,4 +1,4 @@
-package viz.lyrics
+package net.graphviz 
 
 class Node {
 
