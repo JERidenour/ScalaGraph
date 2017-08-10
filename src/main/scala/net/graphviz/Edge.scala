@@ -47,7 +47,7 @@ object Edge {
     // weed out characters not accpeted by graphviz
     def createName(input: String) = {
        input 
-            .replace("", "_")
+            .replace(" ", "")
             .replace(".", "")
             .replace("""(""", "")
             .replace(""")""", "")
